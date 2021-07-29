@@ -16,6 +16,7 @@ const Container = styled.div`
   padding: 8px 4px;
   background-color: ${({ theme }) => theme.nav.background};
   border-top: solid 2px rgba(133, 133, 133, 0.1);
+  display:none;
 `;
 
 const SettingsEntry = styled.div`
@@ -24,6 +25,7 @@ const SettingsEntry = styled.div`
   justify-content: space-between;
   height: ${MENU_ENTRY_HEIGHT}px;
   padding: 0 8px;
+  display:none;
 `;
 
 const SocialEntry = styled.div`
@@ -32,6 +34,7 @@ const SocialEntry = styled.div`
   justify-content: space-between;
   height: ${MENU_ENTRY_HEIGHT}px;
   padding: 0 16px;
+  display:none;
 `;
 
 const PanelFooter: React.FC<Props> = ({
